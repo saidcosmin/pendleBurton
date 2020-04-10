@@ -1,0 +1,300 @@
+body {
+  background-color: black;
+}
+
+/*Nav bar*/
+body {
+  background-image: url(../img/bgstaff.jpg);
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.65) !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 1.2em;
+  padding: 0 !important;
+}
+
+.navbar-brand img {
+  margin-left: 60px;
+}
+
+ul.navbar-nav {
+  text-align: center;
+}
+
+a.nav-item {
+  padding-left: 2em;
+}
+
+.navbar-nav .nav-link {
+  padding-left: 0;
+}
+
+button.navbar-toggler {
+  border: 0;
+  color: white !important;
+}
+
+.fa-sort-down {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em;
+  margin-top: -48px;
+}
+
+.fa-hand-point-left {
+  display: none;
+}
+
+.navbar-brand {
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color: white !important;
+}
+
+nav img {
+  width: 10em;
+}
+
+/*Staff*/
+#staff-grid h1 {
+  font-family: "Lobster Two", cursive;
+  color: white;
+  text-align: center;
+  padding-top: 1em;
+  text-shadow: 0px 8px 5px rgba(0, 0, 0, 0.7);
+}
+
+/*Staff box*/
+.grid {
+  display: grid;
+}
+
+.staff-box {
+  text-align: center;
+  padding-top: 2em;
+}
+
+.staff-box img {
+  width: 18em;
+}
+
+.staff-box h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  text-shadow: 0px 8px 5px rgba(0, 0, 0, 0.7);
+  font-size: 2em;
+  padding: 0.5em 0 0 0 !important;
+}
+
+.staff-box h2 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  padding: 0 !important;
+  font-size: 1.5em;
+}
+
+.for-tablet {
+  display: none;
+}
+
+/*footer*/
+footer {
+  background-image: url(../img/bg-footer-mobile.jpg);
+
+  /*    background-color: #222;*/
+  color: white;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.quick-links h2 {
+  font-family: "Lobster Two", cursive;
+  margin-bottom: 1em;
+}
+
+.quick-links,
+.instagram,
+.social {
+  padding: 2em;
+}
+
+.quick-links ul li a:hover {
+  color: #daa520;
+}
+
+footer li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer h2 a {
+  text-decoration: none;
+  color: white;
+  font-family: "Lobster Two", cursive;
+  font-size: 1.5em;
+}
+
+.quick-links ul li {
+  margin-bottom: 0.6em;
+}
+
+.quick-links ul {
+  padding-left: 0;
+}
+
+.instagram h2 {
+  font-family: "Lobster Two", cursive;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.gallery-insta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.8em;
+  justify-content: center;
+}
+
+.gallery-insta img {
+  width: 100%;
+  max-width: 128px;
+  justify-self: center;
+}
+
+.gallery-insta img:hover {
+  opacity: 0.7;
+}
+
+.instagram h2:nth-last-child(1) {
+  margin-top: 1em;
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: grid;
+  grid-template-columns: 2em 2em;
+  justify-content: center;
+  grid-gap: 2em;
+  margin: 1.5em inherit;
+}
+
+.social h2 {
+  font-family: "Lobster Two", cursive;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.social-icons img {
+  width: 100%;
+}
+
+.social img:hover {
+  opacity: 0.6;
+}
+
+.instagram a:visited {
+  color: white;
+}
+
+.instagram h2 a:hover {
+  color: #daa520;
+}
+
+footer p {
+  padding: 1em 0;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+}
+
+/*Tablet Mode*/
+@media screen and (max-width: 990px) {
+  .fa-sort-down {
+    display: none;
+  }
+
+  .fa-hand-point-left {
+    display: inline-block;
+    font-size: 2em;
+    margin-right: -38px;
+    margin-top: -19px;
+    margin-bottom: -19px;
+  }
+
+  .navbar-brand {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /*footer*/
+  .gallery-insta {
+    grid-template-columns: 8em 8em 8em;
+    justify-content: center;
+  }
+
+  .grid {
+    grid-template-columns: 20em 20em;
+    justify-content: center;
+    grid-gap: 1em;
+  }
+
+  .grid .staff-box:last-of-type {
+    display: none;
+  }
+
+  .for-tablet {
+    display: block;
+    padding: 1em 0 2.5em 0;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .grid {
+    grid-template-columns: 20em 20em 20em;
+    justify-content: center;
+    grid-gap: 1em;
+    padding-bottom: 2.5em;
+  }
+  .grid .staff-box:last-of-type {
+    display: block;
+  }
+
+  /*footer*/
+  footer {
+    background-image: url(../img/bg-footer-desktop.jpg);
+  }
+
+  .footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .quick-links {
+    text-align: left;
+    margin-left: 40%;
+  }
+
+  .social {
+    text-align: right;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .quick-links h3 {
+    min-width: 125px;
+  }
+
+  .for-tablet {
+    display: none;
+  }
+}

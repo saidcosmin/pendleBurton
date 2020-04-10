@@ -1,0 +1,380 @@
+body {
+  background-color: black;
+}
+
+/*Nav bar*/
+body {
+  background-image: url(../img/bgcontact01.jpg);
+  background-size: 2220px 1380px;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.65) !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 1.2em;
+  padding: 0 !important;
+}
+
+.navbar-brand img {
+  margin-left: 60px;
+}
+
+ul.navbar-nav {
+  text-align: center;
+}
+
+a.nav-item {
+  padding-left: 2em;
+}
+
+.navbar-nav .nav-link {
+  padding-left: 0;
+}
+
+button.navbar-toggler {
+  border: 0;
+  color: white !important;
+}
+
+.fa-sort-down {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em;
+  margin-top: -48px;
+}
+
+.fa-hand-point-left {
+  display: none;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color: white !important;
+}
+
+nav img {
+  width: 10em;
+}
+
+.for-tablet {
+  display: none;
+}
+
+/* map */
+#map h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5em 0;
+  font-size: 2em;
+}
+#map iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  padding: 0 1em 1em 1em;
+  border-radius: 25px;
+}
+/* details */
+#details {
+  display: grid;
+  justify-content: center;
+}
+#details h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5em 0;
+  font-size: 2em;
+}
+#details h2 {
+  color: white;
+  font-size: 1.2em;
+}
+#details i {
+  margin-right: 0.5em;
+  text-align: center;
+}
+
+#details .fa-map-marker-alt {
+  width: 38px;
+}
+
+/* contact form */
+#contact {
+  padding-bottom: 1em;
+}
+#contact h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5em 0;
+  font-size: 2em;
+}
+form {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1.3em;
+  margin: 1em 1em 0 1em;
+  border-radius: 5px;
+}
+
+#contact form label,
+#playground form label {
+  color: white;
+  font-weight: bold;
+}
+
+#contact form button,
+#playground form button {
+  display: grid;
+
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  padding: 0.3em 1.5em;
+}
+
+#contact .row {
+  margin: 0;
+}
+
+.invalid-feedback,
+form label.error {
+  font-weight: normal !important;
+  color: white;
+  background-color: #c0392b;
+  margin: 0.5em 0;
+  font-size: 1.2em !important;
+}
+
+.is-valid {
+  display: inline !important;
+}
+
+.valid-feedback {
+  font-weight: normal !important;
+  color: white;
+  background-color: #28a745;
+  margin: 0.5em 0;
+  font-size: 1.2em !important;
+}
+
+/*footer*/
+footer {
+  background-image: url(../img/bg-footer-mobile.jpg);
+
+  /*    background-color: #222;*/
+  color: white;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.quick-links h2 {
+  font-family: "Lobster Two", cursive;
+  margin-bottom: 1em;
+}
+
+.quick-links,
+.instagram,
+.social {
+  padding: 2em;
+}
+
+.quick-links ul li a:hover {
+  color: #daa520;
+}
+
+footer li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer h2 a {
+  text-decoration: none;
+  color: white;
+  font-family: "Lobster Two", cursive;
+  font-size: 1.5em;
+}
+
+.quick-links ul li {
+  margin-bottom: 0.6em;
+}
+
+.quick-links ul {
+  padding-left: 0;
+}
+
+.instagram h2 {
+  font-family: "Lobster Two", cursive;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.gallery-insta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.8em;
+  justify-content: center;
+}
+
+.gallery-insta img {
+  width: 100%;
+  max-width: 128px;
+  justify-self: center;
+}
+
+.gallery-insta img:hover {
+  opacity: 0.7;
+}
+
+.instagram h2:nth-last-child(1) {
+  margin-top: 1em;
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: grid;
+  grid-template-columns: 2em 2em;
+  justify-content: center;
+  grid-gap: 2em;
+  margin: 1.5em inherit;
+}
+
+.social h2 {
+  font-family: "Lobster Two", cursive;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.social-icons img {
+  width: 100%;
+}
+
+.social img:hover {
+  opacity: 0.6;
+}
+
+.instagram a:visited {
+  color: white;
+}
+
+.instagram h2 a:hover {
+  color: #daa520;
+}
+
+footer p {
+  padding: 1em 0;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+}
+
+/*Tablet Mode*/
+@media screen and (max-width: 990px) {
+  .fa-sort-down {
+    display: none;
+  }
+
+  .fa-hand-point-left {
+    display: inline-block;
+    font-size: 2em;
+    margin-right: -38px;
+    margin-top: -19px;
+    margin-bottom: -19px;
+  }
+
+  .navbar-brand {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #details h2 {
+    font-size: 1.8em;
+    padding-bottom: 1em;
+  }
+  #details .fa-map-marker-alt {
+    width: 57px;
+  }
+  #contact h1,
+  #map h1,
+  #details h1 {
+    font-size: 2.5em;
+  }
+  /*footer*/
+  .gallery-insta {
+    grid-template-columns: 8em 8em 8em;
+    justify-content: center;
+  }
+
+  .grid {
+    grid-template-columns: 20em 20em;
+    justify-content: center;
+    grid-gap: 1em;
+  }
+
+  .grid .staff-box:last-of-type {
+    display: none;
+  }
+
+  .for-tablet {
+    display: block;
+    padding: 1em 0 2.5em 0;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .row {
+    margin: 0;
+  }
+  #map {
+    display: grid;
+  }
+  #map iframe {
+    height: 400px;
+    width: 1200px;
+    justify-self: center;
+  }
+  form {
+    width: 40em;
+    margin: 0 auto;
+  }
+
+  /*footer*/
+  footer {
+    background-image: url(../img/bg-footer-desktop.jpg);
+  }
+
+  .footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .quick-links {
+    text-align: left;
+    margin-left: 40%;
+  }
+
+  .social {
+    text-align: right;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .quick-links h2 {
+    min-width: 125px;
+  }
+
+  .for-tablet {
+    display: none;
+  }
+}
